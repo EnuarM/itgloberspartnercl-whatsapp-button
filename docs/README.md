@@ -54,17 +54,20 @@ Go to the manifest.json file and change the following values:
 ```
 ---
 
-### **Step 4** - Link this repository to your current project
+### **Step 4** -Install dependencies
+  We need to access the terminal and go to `react` folder. Now we have to run `Yarn` and install all required dependencies for this component.
+
+### **Step 5** - Link this repository to your current project
 
 Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command.
 
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
+If the process runs without any errors, the following message will be displayed: `Sending local change event`. 
 
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
 
 ---
 
-### **Step 5** - Adding the app on your project
+### **Step 6** - Adding the app on your project
 
 1. Adding the app as a theme dependency in the `manifest.json` file;
 
@@ -93,18 +96,6 @@ This will enable you to see the applied changes in real time, through the accoun
   }
 }
 ```
-
-### **Step 6** - Installing required apps
-
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
-
-Run `vtex list` and check whether those apps are already installed.
-
-If they aren't, run the following command to install them:
-
-`vtex install vtex.store-sitemap vtex.store -f`
-
----
 
 ### **Step 7** - Check the app is connected
 
