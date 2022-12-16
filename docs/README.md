@@ -57,6 +57,8 @@ Go to the manifest.json file and change the following values:
 ### **Step 4** -Install dependencies
   We need to access the terminal and go to `react` folder. Now we have to run `Yarn` and install all required dependencies for this component.
 
+---
+
 ### **Step 5** - Link this repository to your current project
 
 Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command.
@@ -96,6 +98,7 @@ This will enable you to see the applied changes in real time, through the accoun
   }
 }
 ```
+---
 
 ### **Step 7** - Check the app is connected
 
@@ -119,4 +122,4 @@ Thanks goes to these wonderful people:
 
 1. Enuar Montaña
 
----
+
