@@ -52,6 +52,7 @@ Go to the manifest.json file and change the following values:
   }
 }
 ```
+---
 
 ### **Step 4** - Link this repository to your current project
 
